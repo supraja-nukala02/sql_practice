@@ -1,5 +1,5 @@
-CREATE DATABASE sql_operators;
-USE sql_operators;
+CREATE DATABASE operators;
+USE operators;
 CREATE TABLE Employees(
 EmpId INT PRIMARY KEY,
 EmpName VARCHAR(50),
