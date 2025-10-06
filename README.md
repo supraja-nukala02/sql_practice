@@ -37,6 +37,6 @@ WHERE Department IN('IT');
 SELECT EmpName,Salary from Employees 
 WHERE Salary between 40000 AND 50000;
 
--- Like Opeator
+-- Like Operator
 SELECT EmpId,EmpName from employees 
 WHERE EmpName LIKE '_A%';
