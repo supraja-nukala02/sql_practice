@@ -1,5 +1,7 @@
+-- Creating Database
 CREATE DATABASE operators;
 USE operators;
+-- Creating table
 CREATE TABLE Employees(
 EmpId INT PRIMARY KEY,
 EmpName VARCHAR(50),
@@ -7,6 +9,7 @@ Age INT,
 Salary INT,
 Department VARCHAR(50)
 );
+-- Inserting values into table
 INSERT INTO Employees values
 (1, 'Anita', 25, 30000, 'HR'),
 (2, 'Rahul', 32, 45000, 'IT'),
