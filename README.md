@@ -1,5 +1,6 @@
 #  🧠 SQL Practice Repository
 
+Welcome to my **SQL Practice Repository**! 
 This repository contains daily SQL practice examples.  
 Each topic has its own `.sql` file with queries and examples.
 
@@ -28,5 +29,17 @@ Each topic has its own `.sql` file with queries and examples.
 - [SQLBolt Interactive Lessons](https://sqlbolt.com/)
 - [LeetCode SQL Practice](https://leetcode.com/problemset/database/)
 
----
-✨ Created by Nukala Supraja | Updated Daily with New Topics  
+## 🎓 References / Learning Sources
+
+These are the channels and videos I followed while learning SQL:
+
+- [Complete SQL Course for Beginners | Full Tutorial in One Video (Riti Kumari)](https://youtu.be/RQPpP2ywA9k?si=-K2xWzavTHC1kkOO)
+- [Bro Code – SQL Full Course](https://www.youtube.com/watch?v=HXV3zeQKqGY)
+- [Programming with Mosh – SQL Tutorial for Beginners](https://www.youtube.com/watch?v=9Pzj7Aj25lw)
+
+## 🌟 About
+
+This repository is part of my learning journey to master SQL concepts step-by-step.  
+I update one topic **daily** with examples and explanations.
+
+💡 *Suggestions and improvements are always welcome!*
