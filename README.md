@@ -1,44 +1,32 @@
-```sql
--- Creating Database
-CREATE DATABASE operators;
-USE operators;
--- Creating table
-CREATE TABLE Employees(
-EmpId INT PRIMARY KEY,
-EmpName VARCHAR(50),
-Age INT,
-Salary INT,
-Department VARCHAR(50)
-);
--- Inserting Values into table
-INSERT INTO Employees values
-(1, 'Anita', 25, 30000, 'HR'),
-(2, 'Rahul', 32, 45000, 'IT'),
-(3, 'Kiran', 28, 38000, 'Finance'),
-(4, 'Sneha', 30, 42000, 'IT'),
-(5, 'Vijay', 35, 52000, 'HR');
+#  🧠 SQL Practice Repository
 
--- Arithmetic operator 
-SELECT EmpName, Salary, Salary * 2 AS increased_salary from Employees;
+This repository contains daily SQL practice examples.  
+Each topic has its own `.sql` file with queries and examples.
 
--- Comparison Operator 
-SELECT EmpName, age from Employees WHERE age>30;
-SELECT EmpName, Salary from Employees WHERE salary = 45000;
+# 📘 Topics Covered
 
--- Logical Operators 
-SELECT EmpName, Department, Salary from Employees 
-WHERE Department = 'IT' AND Salary > 40000;
-SELECT EmpName, Department,Salary from Employees
-WHERE Department = 'IT' OR Salary >40000;
-SELECT EmpName, Department from Employees 
-WHERE Department NOT IN('IT');
-SELECT EmpName, Department from Employees 
-WHERE Department IN('IT');
+| #  | Topic                 | File Link                                                              | Description                                                 |
+|----|---------------------- |------------------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Operators             | [operators.sql](operators.sql)                                         | Arithmetic, Comparison, Logical, BETWEEN, LIKE, IN          |
+| 2  | Clauses               | [clauses.sql](clauses.sql)                                             | SELECT, WHERE, ORDER BY, GROUP BY, HAVING, LIMIT            |
+| 3  | Constraints           | [constraints/constraints.sql](constraints/constraints.sql)             | PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL, DEFAULT  |
+| 4  | Joins                 | [joins/joins.sql](joins/joins.sql)                                     | INNER, LEFT, RIGHT, FULL, SELF JOIN                         |
+| 5  | Functions             | [functions/functions.sql](functions/functions.sql)                     | COUNT(), SUM(), AVG(), MIN(), MAX(), UPPER(), LOWER()       |
+| 6  | Subqueries            | [subqueries/subqueries.sql](subqueries/subqueries.sql)                 | Nested SELECT queries for advanced data retrieval           |
+| 7  | Views                 | [views/views.sql](views/views.sql)                                     | Creating and using virtual tables                           |
+| 8  | Indexes               | [indexes/indexes.sql](indexes/indexes.sql)                             | Improving query performance with indexes                    |
+| 9  | Transactions          | [transactions/transactions.sql](transactions/transactions.sql)         | COMMIT, ROLLBACK, SAVEPOINT concepts                        |
+| 10 | Date & Time Functions | [date_functions/date_functions.sql](date_functions/date_functions.sql) | Working with NOW(), DATE(), TIME(), and formatting          |
 
--- Between Operator
-SELECT EmpName,Salary from Employees 
-WHERE Salary between 40000 AND 50000;
+## ⚙️ How to Use
+1. Open any `.sql` file from the table above.
+2. Run the queries in your preferred SQL environment (MySQL, PostgreSQL, or SQLite).
+3. Experiment by changing conditions or adding your own queries.
 
--- Like Operator
-SELECT EmpId,EmpName from employees 
-WHERE EmpName LIKE '_A%';
+## 🌟 Resources
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [SQLBolt Interactive Lessons](https://sqlbolt.com/)
+- [LeetCode SQL Practice](https://leetcode.com/problemset/database/)
+
+---
+✨ Created by Nukala Supraja | Updated Daily with New Topics  
