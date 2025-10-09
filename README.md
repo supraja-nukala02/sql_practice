@@ -10,9 +10,9 @@ Each topic has its own `.sql` file with queries and examples.
 |----|---------------------- |------------------------------------------------------------------------|-------------------------------------------------------------|
 | 1  | Operators             | [operators.sql](operators.sql)                                         | Arithmetic, Comparison, Logical, BETWEEN, LIKE, IN          |
 | 2  | Clauses               | [clauses.sql](clauses.sql)                                             | SELECT, WHERE, ORDER BY, GROUP BY, HAVING, LIMIT            |
-| 3  | Constraints           | [constraints/constraints.sql](constraints/constraints.sql)             | PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL, DEFAULT  |
-| 4  | Joins                 | [joins/joins.sql](joins/joins.sql)                                     | INNER, LEFT, RIGHT, FULL, SELF JOIN                         |
-| 5  | Functions             | [functions/functions.sql](functions/functions.sql)                     | COUNT(), SUM(), AVG(), MIN(), MAX(), UPPER(), LOWER()       |
+| 3  | Aggregate Functions   | [aggregate_functions.sql](aggregate_functions.sql)                     | COUNT(), SUM(), AVG(), MIN(), MAX()                         |
+| 4  | Constraints           | [constraints/constraints.sql](constraints/constraints.sql)             | PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL, DEFAULT  |
+| 5  | Joins                 | [joins/joins.sql](joins/joins.sql)                                     | INNER, LEFT, RIGHT, FULL, SELF JOIN                         |
 | 6  | Subqueries            | [subqueries/subqueries.sql](subqueries/subqueries.sql)                 | Nested SELECT queries for advanced data retrieval           |
 | 7  | Views                 | [views/views.sql](views/views.sql)                                     | Creating and using virtual tables                           |
 | 8  | Indexes               | [indexes/indexes.sql](indexes/indexes.sql)                             | Improving query performance with indexes                    |
