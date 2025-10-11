@@ -6,13 +6,15 @@ Each topic has its own `.sql` file with queries and examples.
 
 # 📘 Topics Covered
 
-| #  | Topic                 | File Link                                                              | Description                                                 |
-|----|---------------------- |------------------------------------------------------------------------|-------------------------------------------------------------|
-| 1  | Operators             | [operators.sql](operators.sql)                                         | Arithmetic, Comparison, Logical, BETWEEN, LIKE, IN          |
-| 2  | Clauses               | [clauses.sql](clauses.sql)                                             | SELECT, WHERE, ORDER BY, GROUP BY, HAVING, LIMIT            |
-| 3  | Aggregate Functions   | [aggregate_functions.sql](aggregate_functions.sql)                     | COUNT(), SUM(), AVG(), MIN(), MAX()                         |
-| 4  | Constraints           | [constraints/constraints.sql](constraints/constraints.sql)             | PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL, DEFAULT  |
-| 5  | Joins                 | [joins/joins.sql](joins/joins.sql)                                     | INNER, LEFT, RIGHT, FULL, SELF JOIN                         |
+| #  | Topic                 | File Link                                                              | Description                                                       |
+|----|---------------------- |------------------------------------------------------------------------|-------------------------------------------------------------------|
+| 1  | Data Types            | [data_types.sql](data_types.sql)                                       | INT, DECIMAL, FLOAT, VARCHAR, CHAR, TEXT, DATE, DATETIME, BOOLEAN |
+| 2  | Constraints           | [constraints/constraints.sql](constraints/constraints.sql)             | PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL, DEFAULT        |
+| 1  | Operators             | [operators.sql](operators.sql)                                         | Arithmetic, Comparison, Logical, BETWEEN, LIKE, IN                |
+| 2  | Clauses               | [clauses.sql](clauses.sql)                                             | SELECT, WHERE, ORDER BY, GROUP BY, HAVING, LIMIT                  |
+| 3  | Aggregate Functions   | [aggregate_functions.sql](aggregate_functions.sql)                     | COUNT(), SUM(), AVG(), MIN(), MAX()                               |
+| 5  | Joins                 | [joins/joins.sql](joins/joins.sql)                                     | INNER, LEFT, RIGHT, FULL, SELF JOIN                               |
+
 
 ## ⚙️ How to Use
 1. Open any `.sql` file from the table above.
